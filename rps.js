@@ -17,10 +17,6 @@ function playRound(playerSelection, computerSelection)
     else if (playerSelection === computerSelection){
         return("It's a tie!");
     }
-    /*else if(playerSelection != "rock" || playerSelection != "paper" ||
-    playerSelection != "scissor" ){
-        return("You've misspelled");
-    }*/
     else{
         return("You Win! "+ playerSelection + " beats "+computerSelection);
     }
