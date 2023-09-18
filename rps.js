@@ -36,7 +36,3 @@ function game()
 
 }
 game()
-/*
-let random = getComputerChoice();
-console.log(random);
-*/
